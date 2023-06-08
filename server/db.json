@@ -2,9 +2,9 @@
   "users": [
     {
       "email": "olivier@mail.com",
-      "password": "$2a$10$7ergoegB9DVKkx6VLqN5xu0enAzBgBQ5Wi.rJnur9he/uFrWqyYna",
+      "password": "$2a$10$X7xAQVNXMAJmedvaiV5NfOFgZayfdpUphEdsudm9PEuco9StPcnYm",
       "firstname": "Olivier",
-      "lastname": "Monge",
+      "lastname": "gyj",
       "age": 32,
       "id": 1
     },
@@ -36,11 +36,11 @@
     },
     {
       "email": "madhumithakp@gmail.com",
-      "password": "$2a$10$abqW8GBkpXZp6ZZ7JKQ3z.OEOrAShxLOw3G7jYTc3f.fKgoC0.SIO",
+      "password": "$2a$10$CxcpfzUHpp9lhNTukQQbou1qdJAf88xZ59.a5axu9425GeRuHOLpW",
       "firstName": "Madhumitha",
-      "lastName": "k P",
+      "lastName": "k ",
       "phoneNumber": "9789443183",
-      "country": "India",
+      "country": "Indias7",
       "id": 5
     },
     {
@@ -51,6 +51,14 @@
       "phoneNumber": "1425",
       "country": "india",
       "id": 6
+    },
+    {
+      "email": "madhus@mail.com",
+      "password": "$2a$10$kbUN8hfi0yklDbIaH4q5yeQjSqJruqhpC1mHJHliaPMXarzbT6aVO",
+      "firstname": "madhu",
+      "lastname": "mitha",
+      "age": 30,
+      "id": 7
     }
   ]
 }

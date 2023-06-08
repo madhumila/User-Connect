@@ -39,7 +39,7 @@ const LoginPage = () => {
   
   return (
     <div className="login-container">
-      <h2>Welcome to UserPedia</h2>
+      <h2>Welcome to User Connect</h2>
       <form onSubmit={handleLogin} className="login-form">
         <div>
           <label>Username or email address</label>
