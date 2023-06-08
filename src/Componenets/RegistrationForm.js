@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import "./RegistrationForm.css";
 import axios from "axios";
 import { BASE_URL } from "../constants";
-import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 const RegistraionForm = () => {
-  const dispatch = useDispatch();
   const nav = useNavigate();
   const [formData, setFormData] = useState({
     firstName: "",
@@ -15,6 +13,7 @@ const RegistraionForm = () => {
     password: "",
     phoneNumber: "",
     country: "",
+    
   });
 
   const handleChange = (e) => {

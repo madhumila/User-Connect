@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 import { login } from "../Feature/authSlice";
 import { useNavigate } from "react-router-dom";
 
-const LoginPage = () => {
+const Login = () => {
     const dispatch = useDispatch();
     const nav = useNavigate();
   const [data, setData] = useState({
@@ -29,44 +29,50 @@ const LoginPage = () => {
     .then(function (response) {
       console.log(response.data);
       dispatch(login(response.data))
-      nav("/profile")
+      localStorage.setItem("token", response.data.accessToken)
+      nav("/")
 
     })
     .catch(function (error) {
-     alert("Invalid data");
+     alert("Invalid email or password");
     });
   };
   
   return (
     <div className="login-container">
-      <h2>Welcome to User Connect</h2>
+      <h2> Sign in to User Connect</h2>
       <form onSubmit={handleLogin} className="login-form">
-        <div>
-          <label>Username or email address</label>
+        <div className="input-container">
+        <div className="input"> 
+          {/* <label>Email:</label>
+          <br/> */}
           <input
             type="text"
             name="email"
             value={data.email}
             onChange={handleChange}
+            placeholder="email"
             required
           />
         </div>
-        <div>
-          <label>Password:</label>
-          <br/>
+        <div className="input">
+          {/* <label>Password:</label>
+          <br/> */}
           <input
             type="password"
             value={data.password}
             name="password"
             onChange={handleChange}
+            placeholder="password"
             required
           />
         </div>
-        <button type="submit">Sign In</button>
+        </div>
+        <button className="input-button" type="submit">Sign In</button>
       </form>
       {/* {error && <p className="error-message">{error}</p>} */}
     </div>
   );
 };
 
-export default LoginPage;
+export default Login;

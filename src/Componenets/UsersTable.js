@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
-import "./Home.css"
+import "./UsersTable.css"
 import { useDispatch, useSelector } from 'react-redux'
 import axios from 'axios'
 import { BASE_URL } from '../constants'
 import { getUsers } from '../Feature/authSlice'
 
 
-const Home = () => {
+const UsersTable = () => {
   const dispatch = useDispatch();
   const users = useSelector((state)=>state.auth.users)
   useEffect(()=>{
@@ -30,6 +30,8 @@ const Home = () => {
               <th>Phone Number</th>
               <th>Country</th>
               <th>Email</th>
+              <th>Delete</th>
+              
 
             </tr>
           </thead>
@@ -43,6 +45,7 @@ const Home = () => {
                 <td>{user.phoneNumber}</td>
                 <td>{user.country}</td>
                 <td>{user.email}</td>
+                <button>Delete</button>
               </tr>
             ))}
           </tbody>
@@ -51,4 +54,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default UsersTable;

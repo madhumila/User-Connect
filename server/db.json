@@ -1,64 +1,22 @@
 {
   "users": [
     {
-      "email": "olivier@mail.com",
-      "password": "$2a$10$X7xAQVNXMAJmedvaiV5NfOFgZayfdpUphEdsudm9PEuco9StPcnYm",
-      "firstname": "Olivier",
-      "lastname": "gyj",
-      "age": 32,
+      "email": "madhumithakp@gmail.com",
+      "password": "$2a$10$7UkoaVZ7q0ICKfcfOeZcu.ZepnqgtzY/oJm2MLASqofHaP/9Mq0LO",
+      "firstName": "Madhu",
+      "lastName": "k p",
+      "phoneNumber": "1425",
+      "country": "in",
       "id": 1
     },
     {
-      "email": "madhu@mail.com",
-      "password": "$2a$10$EW8jveXxxOgzLOCql1d1DOWl0y6u/XG3lyV1VDceSNn2irG61IpkO",
-      "firstname": "madhu",
-      "lastname": "mitha",
-      "age": 30,
-      "id": 2
-    },
-    {
-      "email": "fghjk@gmail.com",
-      "password": "$2a$10$Ill/oiNCoprLT6mCVvjlteYYTdUTO8BTXHL.2IxNhLX.cM2pAqQM2",
-      "firstName": "rahul",
-      "lastName": "vv",
-      "phoneNumber": "234567890",
-      "country": "dfghj",
-      "id": 3
-    },
-    {
-      "email": "fghjgfhjk@gmail.com",
-      "password": "$2a$10$pRX34Ly.HYDS3eujmeVGee9MlfVNr6GiKY29tur4AXFoKUq14RtkK",
-      "firstName": "mila",
-      "lastName": "vv",
-      "phoneNumber": "234567890",
-      "country": "dfghj",
-      "id": 4
-    },
-    {
-      "email": "madhumithakp@gmail.com",
-      "password": "$2a$10$CxcpfzUHpp9lhNTukQQbou1qdJAf88xZ59.a5axu9425GeRuHOLpW",
-      "firstName": "Madhumitha",
+      "email": "test2@gmail.com",
+      "password": "$2a$10$ovPkFdewjO09sxSSVigUs.dowMcg5TFHhCcq2ynl1kf7bcb8z0I5q",
+      "firstName": "Madhu",
       "lastName": "k ",
-      "phoneNumber": "9789443183",
-      "country": "Indias7",
-      "id": 5
-    },
-    {
-      "email": "test@gmail.com",
-      "password": "$2a$10$rpQUsj1okvedyJPhq91tAuSpYyIYzgi9brAKDwJYJ3t3pwUy/.aym",
-      "firstName": "rahul",
-      "lastName": "vv",
       "phoneNumber": "1425",
-      "country": "india",
-      "id": 6
-    },
-    {
-      "email": "madhus@mail.com",
-      "password": "$2a$10$kbUN8hfi0yklDbIaH4q5yeQjSqJruqhpC1mHJHliaPMXarzbT6aVO",
-      "firstname": "madhu",
-      "lastname": "mitha",
-      "age": 30,
-      "id": 7
+      "country": "Indias7",
+      "id": 2
     }
   ]
 }
