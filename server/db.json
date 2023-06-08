@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$7ergoegB9DVKkx6VLqN5xu0enAzBgBQ5Wi.rJnur9he/uFrWqyYna",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 1
+    },
+    {
+      "email": "madhu@mail.com",
+      "password": "$2a$10$EW8jveXxxOgzLOCql1d1DOWl0y6u/XG3lyV1VDceSNn2irG61IpkO",
+      "firstname": "madhu",
+      "lastname": "mitha",
+      "age": 30,
+      "id": 2
+    },
+    {
+      "email": "fghjk@gmail.com",
+      "password": "$2a$10$Ill/oiNCoprLT6mCVvjlteYYTdUTO8BTXHL.2IxNhLX.cM2pAqQM2",
+      "firstName": "rahul",
+      "lastName": "vv",
+      "phoneNumber": "234567890",
+      "country": "dfghj",
+      "id": 3
+    },
+    {
+      "email": "fghjgfhjk@gmail.com",
+      "password": "$2a$10$pRX34Ly.HYDS3eujmeVGee9MlfVNr6GiKY29tur4AXFoKUq14RtkK",
+      "firstName": "mila",
+      "lastName": "vv",
+      "phoneNumber": "234567890",
+      "country": "dfghj",
+      "id": 4
+    },
+    {
+      "email": "madhumithakp@gmail.com",
+      "password": "$2a$10$abqW8GBkpXZp6ZZ7JKQ3z.OEOrAShxLOw3G7jYTc3f.fKgoC0.SIO",
+      "firstName": "Madhumitha",
+      "lastName": "k P",
+      "phoneNumber": "9789443183",
+      "country": "India",
+      "id": 5
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$rpQUsj1okvedyJPhq91tAuSpYyIYzgi9brAKDwJYJ3t3pwUy/.aym",
+      "firstName": "rahul",
+      "lastName": "vv",
+      "phoneNumber": "1425",
+      "country": "india",
+      "id": 6
+    }
+  ]
+}
