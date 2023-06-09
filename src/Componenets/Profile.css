@@ -44,4 +44,19 @@
   .edit-btn:hover {
     background-color: #0056b3;
   }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .users-hyperlink {
+    text-decoration: none;
+  }
+
+  .profile-main {
+    margin: 20px;
+  }
   

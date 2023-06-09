@@ -14,17 +14,26 @@ export const authSlice = createSlice({
     login: (state, action) => {
         state.user = action.payload.user;
         state.isAuthenticated = action.payload.user? true : false;
-        state.accessToken = action.payload.accessToken
+        state.accessToken = action.payload.accessToken;
     },
-    getUsers:(state,action)=>{
+    getAllUsers:(state,action)=>{
       state.users = action.payload;
     },
     updateUser:(state,action)=>{
-      state.user=action.payload
+      state.user=action.payload;
+    },
+    logout:(state) => {
+      state.user = {};
+      state.isAuthenticated = false;
+      state.accessToken = "";
+      state.users = [];
+    },
+    getUser:(state, action) => {
+      state.user = action.payload;
     }
   },
 })
 
 // Action creators are generated for each case reducer function
-export const { login,getUsers,updateUser } = authSlice.actions
+export const { login,getAllUsers,updateUser, logout, getUser } = authSlice.actions
 export default authSlice.reducer

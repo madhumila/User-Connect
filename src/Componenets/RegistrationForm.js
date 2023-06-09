@@ -34,17 +34,14 @@ const RegistraionForm = () => {
       console.log(response.data);
       alert("successfully registered")
       nav("/signin")
-
     })
     .catch(function (error) {
       console.log(error);
     });
   };
-
   return (
     <div className="form-container">
       <h1>Regestration form</h1>
-
       <form onSubmit={handleSubmit}>
         <label>
           First Name:

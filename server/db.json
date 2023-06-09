@@ -1,22 +1,31 @@
 {
   "users": [
     {
-      "email": "madhumithakp@gmail.com",
-      "password": "$2a$10$7UkoaVZ7q0ICKfcfOeZcu.ZepnqgtzY/oJm2MLASqofHaP/9Mq0LO",
-      "firstName": "Madhu",
-      "lastName": "k p",
-      "phoneNumber": "1425",
-      "country": "in",
-      "id": 1
+      "email": "madhu@gmail.com",
+      "password": "$2a$10$lA0Q.mejiAL/OH5b0Sk.LOl6KiL7lAFWQ.PkjPWSIgWKCdmP38mqa",
+      "firstName": "MADHU",
+      "lastName": "v v",
+      "phoneNumber": "900",
+      "country": "INDIA",
+      "id": 3
     },
     {
-      "email": "test2@gmail.com",
-      "password": "$2a$10$ovPkFdewjO09sxSSVigUs.dowMcg5TFHhCcq2ynl1kf7bcb8z0I5q",
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$hi1vAfAOT4CDk9sLwz9gUepN8jOlCQkgmSSKmZzfLOy7ibURL3cs.",
+      "firstName": "rahul",
+      "lastName": "nambiar",
+      "phoneNumber": "23454",
+      "country": "india",
+      "id": 4
+    },
+    {
+      "email": "madhu1@gmail.com",
+      "password": "$2a$10$7Q9jr5zGmiPpWXhxXbbbouvdKnJ7GXYYpdL3/KmrKjLz8/K2Ur1Fa",
       "firstName": "Madhu",
-      "lastName": "k ",
-      "phoneNumber": "1425",
-      "country": "Indias7",
-      "id": 2
+      "lastName": "k p",
+      "phoneNumber": "9000",
+      "country": "india",
+      "id": 5
     }
   ]
 }

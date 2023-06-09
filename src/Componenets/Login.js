@@ -30,8 +30,8 @@ const Login = () => {
       console.log(response.data);
       dispatch(login(response.data))
       localStorage.setItem("token", response.data.accessToken)
+      localStorage.setItem("user", JSON.stringify(response.data.user))
       nav("/")
-
     })
     .catch(function (error) {
      alert("Invalid email or password");
@@ -47,7 +47,7 @@ const Login = () => {
           {/* <label>Email:</label>
           <br/> */}
           <input
-            type="text"
+            type="email"
             name="email"
             value={data.email}
             onChange={handleChange}

@@ -1,5 +1,5 @@
 .user-details-container {
-  margin-top: 10px;
+  margin: 100px;
 }
 
 .user-details-container h3 {
@@ -28,4 +28,14 @@
 
 .user-details-table tbody tr:hover {
   background-color: #e6e6e6;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.back-button {
+  text-decoration: none;
 }
