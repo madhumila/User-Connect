@@ -10,15 +10,6 @@
       "id": 3
     },
     {
-      "email": "rahul@gmail.com",
-      "password": "$2a$10$hi1vAfAOT4CDk9sLwz9gUepN8jOlCQkgmSSKmZzfLOy7ibURL3cs.",
-      "firstName": "rahul",
-      "lastName": "nambiar",
-      "phoneNumber": "23454",
-      "country": "india",
-      "id": 4
-    },
-    {
       "email": "madhu1@gmail.com",
       "password": "$2a$10$7Q9jr5zGmiPpWXhxXbbbouvdKnJ7GXYYpdL3/KmrKjLz8/K2Ur1Fa",
       "firstName": "Madhu",
@@ -26,6 +17,15 @@
       "phoneNumber": "9000",
       "country": "india",
       "id": 5
+    },
+    {
+      "email": "mila@gmail.com",
+      "password": "$2a$10$MoOqn1JoSXGK3jcjIlZMKeWoubBGX1oAPAEQ/2yR10IY1leXSnbCe",
+      "firstName": "madhu",
+      "lastName": "mitha",
+      "phoneNumber": "2345678",
+      "country": "ind",
+      "id": 6
     }
   ]
 }

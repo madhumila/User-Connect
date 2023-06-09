@@ -18,7 +18,7 @@ const Profile = () => {
 
   useEffect(() => {
     axios
-      .get(`${BASE_URL}/users/${JSON.parse(localStorage.getItem("user")).id}`)
+      .get(`${BASE_URL}/users/${JSON.parse(localStorage.getItem("user"))?.id}`)
       .then(function (response) {
         dispatch(getUser(response.data));
       })

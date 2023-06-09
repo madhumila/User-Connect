@@ -33,6 +33,7 @@ const Login = () => {
       localStorage.setItem("user", JSON.stringify(response.data.user))
       nav("/")
     })
+    
     .catch(function (error) {
      alert("Invalid email or password");
     });
