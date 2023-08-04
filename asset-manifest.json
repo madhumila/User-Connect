@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/User-Connect/static/css/main.a1c69404.css",
+    "main.js": "/User-Connect/static/js/main.dc6bf0cf.js",
+    "index.html": "/User-Connect/index.html",
+    "main.a1c69404.css.map": "/User-Connect/static/css/main.a1c69404.css.map",
+    "main.dc6bf0cf.js.map": "/User-Connect/static/js/main.dc6bf0cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1c69404.css",
+    "static/js/main.dc6bf0cf.js"
+  ]
+}
