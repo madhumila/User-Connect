@@ -26,6 +26,15 @@
       "phoneNumber": "2345678",
       "country": "ind",
       "id": 6
+    },
+    {
+      "email": "madhumitha@gmail.com",
+      "password": "$2a$10$CC5rFWo3uwX6Unu.4gmYoOu4zsCjuhIdlSxenqQeLgFzMNUWMF4KW",
+      "firstName": "Madh",
+      "lastName": "Mitha",
+      "phoneNumber": "345678",
+      "country": "wedfrgthj",
+      "id": 7
     }
   ]
 }

@@ -4,7 +4,7 @@ import { BASE_URL } from "../constants";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { login } from "../Feature/authSlice";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
     const dispatch = useDispatch();
@@ -72,6 +72,7 @@ const Login = () => {
         <button className="input-button" type="submit">Sign In</button>
       </form>
       {/* {error && <p className="error-message">{error}</p>} */}
+      <p>Not a user yet? <Link to={"/signup"}>Register</Link></p>
     </div>
   );
 };
